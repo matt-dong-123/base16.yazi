@@ -115,12 +115,12 @@ hovered = { fg = "magenta", bold = true }
 # : Which {{{
 
 [which]
-mask            = { bg = "darkgray" }
+mask            = { bg = "black" }
 cand            = { fg = "cyan" }
-rest            = { fg = "gray" }
+rest            = { fg = "darkgray" }
 desc            = { fg = "magenta" }
 separator       = " -> "
-separator_style = { fg = "darkgray" }
+separator_style = { fg = "gray" }
 
 # : }}}
 
