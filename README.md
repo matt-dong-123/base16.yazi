@@ -8,7 +8,7 @@ A Yazi flavor using standard terminal base16 color names (black, red, green, yel
 
 ```bash
 # Clone into your yazi flavors directory
-git clone https://github.com/yourusername/base16.yazi ~/.config/yazi/flavors/base16.yazi
+git clone https://github.com/matt-dong-123/base16.yazi ~/.config/yazi/flavors/base16.yazi
 ```
 
 ### `ya` pkg manager
