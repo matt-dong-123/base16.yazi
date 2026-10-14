@@ -1,6 +1,6 @@
 # Base16 Yazi Flavor
 
-A Yazi flavor using standard terminal base16 color names (black, red, green, yellow, blue, magenta, cyan, white, gray, and their light variants).
+A pair of dark/light Yazi flavors using standard terminal base16 color names (black, red, green, yellow, blue, magenta, cyan, white, gray, and their light variants).
 
 ## Installation
 
@@ -8,13 +8,14 @@ A Yazi flavor using standard terminal base16 color names (black, red, green, yel
 
 ```bash
 # Clone into your yazi flavors directory
-git clone https://github.com/matt-dong-123/base16.yazi ~/.config/yazi/flavors/base16.yazi
+git clone https://github.com/matt-dong-123/base16.yazi ~/.config/yazi/flavors
 ```
 
 ### `ya` pkg manager
 
 ```bash
-ya pkg add matt-dong-123/base16
+ya pkg add matt-dong-123/base16:base16-dark
+ya pkg add matt-dong-123/base16:base16-light
 ```
 
 ## Usage
@@ -23,8 +24,8 @@ Add to your `~/.config/yazi/theme.toml`:
 
 ```toml
 [flavor]
-dark = "base16"
-light = "base16"
+dark = "base16-dark"
+light = "base16-light"
 ```
 
 ## License
